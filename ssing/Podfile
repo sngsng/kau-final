@@ -7,9 +7,5 @@ target 'ssing' do
 
 pod 'KYDrawerController'
 
-  target 'ssingTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end
