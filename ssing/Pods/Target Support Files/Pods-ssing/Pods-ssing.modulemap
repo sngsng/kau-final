@@ -1,0 +1,6 @@
+framework module Pods_ssing {
+  umbrella header "Pods-ssing-umbrella.h"
+
+  export *
+  module * { export * }
+}

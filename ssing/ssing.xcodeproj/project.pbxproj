@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A0BD5CC61DD0015900260ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD5CC51DD0015900260ED0 /* AppDelegate.swift */; };
-		A0BD5CC81DD0015900260ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD5CC71DD0015900260ED0 /* ViewController.swift */; };
+		A0BD5CC81DD0015900260ED0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD5CC71DD0015900260ED0 /* MainViewController.swift */; };
 		A0BD5CCB1DD0015900260ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BD5CC91DD0015900260ED0 /* Main.storyboard */; };
 		A0BD5CCD1DD0015900260ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BD5CCC1DD0015900260ED0 /* Assets.xcassets */; };
 		A0BD5CD01DD0015900260ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BD5CCE1DD0015900260ED0 /* LaunchScreen.storyboard */; };
 		A0BD5CDB1DD0015900260ED0 /* ssingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD5CDA1DD0015900260ED0 /* ssingTests.swift */; };
+		A3527F94406682F50A0EAAF1 /* Pods_ssingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7060CC0B21DCF0882711FF /* Pods_ssingTests.framework */; };
+		A775B12EB4E0D47FB02740CA /* Pods_ssing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C208503EEB2D6155F9510C19 /* Pods_ssing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D13C975E086815921C3ABAD /* Pods-ssing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ssing/Pods-ssing.debug.xcconfig"; sourceTree = "<group>"; };
+		3A7060CC0B21DCF0882711FF /* Pods_ssingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ssingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA529CBB631B2402496F1F6 /* Pods-ssingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ssingTests/Pods-ssingTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0BD5CC21DD0015900260ED0 /* ssing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ssing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BD5CC51DD0015900260ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0BD5CC71DD0015900260ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0BD5CC71DD0015900260ED0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A0BD5CCA1DD0015900260ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0BD5CCC1DD0015900260ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BD5CCF1DD0015900260ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		A0BD5CD61DD0015900260ED0 /* ssingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ssingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BD5CDA1DD0015900260ED0 /* ssingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ssingTests.swift; sourceTree = "<group>"; };
 		A0BD5CDC1DD0015900260ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C208503EEB2D6155F9510C19 /* Pods_ssing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ssing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C984F510FB706959945380 /* Pods-ssingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ssingTests/Pods-ssingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB71184205D35754629A36C /* Pods-ssing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssing.release.xcconfig"; path = "Pods/Target Support Files/Pods-ssing/Pods-ssing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A775B12EB4E0D47FB02740CA /* Pods_ssing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3527F94406682F50A0EAAF1 /* Pods_ssingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FCF39344EB2A61B223A1219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D13C975E086815921C3ABAD /* Pods-ssing.debug.xcconfig */,
+				CBB71184205D35754629A36C /* Pods-ssing.release.xcconfig */,
+				C8C984F510FB706959945380 /* Pods-ssingTests.debug.xcconfig */,
+				3DA529CBB631B2402496F1F6 /* Pods-ssingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A0BD5CB91DD0015800260ED0 = {
 			isa = PBXGroup;
 			children = (
 				A0BD5CC41DD0015900260ED0 /* ssing */,
 				A0BD5CD91DD0015900260ED0 /* ssingTests */,
 				A0BD5CC31DD0015900260ED0 /* Products */,
+				1FCF39344EB2A61B223A1219 /* Pods */,
+				FDD99CC7FF301779223FE9EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A0BD5CC51DD0015900260ED0 /* AppDelegate.swift */,
-				A0BD5CC71DD0015900260ED0 /* ViewController.swift */,
+				A0BD5CC71DD0015900260ED0 /* MainViewController.swift */,
 				A0BD5CC91DD0015900260ED0 /* Main.storyboard */,
 				A0BD5CCC1DD0015900260ED0 /* Assets.xcassets */,
 				A0BD5CCE1DD0015900260ED0 /* LaunchScreen.storyboard */,
@@ -96,6 +119,15 @@
 			path = ssingTests;
 			sourceTree = "<group>";
 		};
+		FDD99CC7FF301779223FE9EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C208503EEB2D6155F9510C19 /* Pods_ssing.framework */,
+				3A7060CC0B21DCF0882711FF /* Pods_ssingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0BD5CDF1DD0015900260ED0 /* Build configuration list for PBXNativeTarget "ssing" */;
 			buildPhases = (
+				36735816031F5C817C6C09EA /* [CP] Check Pods Manifest.lock */,
 				A0BD5CBE1DD0015800260ED0 /* Sources */,
 				A0BD5CBF1DD0015800260ED0 /* Frameworks */,
 				A0BD5CC01DD0015800260ED0 /* Resources */,
+				A3B3C4E16AD1667602F33F3E /* [CP] Embed Pods Frameworks */,
+				A0988BBAEC14BF4AD4CC8E3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0BD5CE21DD0015900260ED0 /* Build configuration list for PBXNativeTarget "ssingTests" */;
 			buildPhases = (
+				81C7278C2799E2AACD241C68 /* [CP] Check Pods Manifest.lock */,
 				A0BD5CD21DD0015900260ED0 /* Sources */,
 				A0BD5CD31DD0015900260ED0 /* Frameworks */,
 				A0BD5CD41DD0015900260ED0 /* Resources */,
+				A8165B6026B2AA1869CEA0B7 /* [CP] Embed Pods Frameworks */,
+				50FAA60340FC2672C31D317F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,12 +234,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36735816031F5C817C6C09EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50FAA60340FC2672C31D317F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ssingTests/Pods-ssingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C7278C2799E2AACD241C68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0988BBAEC14BF4AD4CC8E3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ssing/Pods-ssing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B3C4E16AD1667602F33F3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ssing/Pods-ssing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8165B6026B2AA1869CEA0B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ssingTests/Pods-ssingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0BD5CBE1DD0015800260ED0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0BD5CC81DD0015900260ED0 /* ViewController.swift in Sources */,
+				A0BD5CC81DD0015900260ED0 /* MainViewController.swift in Sources */,
 				A0BD5CC61DD0015900260ED0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +468,7 @@
 		};
 		A0BD5CE01DD0015900260ED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D13C975E086815921C3ABAD /* Pods-ssing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3BX7UAG4ZQ;
@@ -350,6 +482,7 @@
 		};
 		A0BD5CE11DD0015900260ED0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB71184205D35754629A36C /* Pods-ssing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3BX7UAG4ZQ;
@@ -363,6 +496,7 @@
 		};
 		A0BD5CE31DD0015900260ED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C984F510FB706959945380 /* Pods-ssingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -378,6 +512,7 @@
 		};
 		A0BD5CE41DD0015900260ED0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA529CBB631B2402496F1F6 /* Pods-ssingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +545,7 @@
 				A0BD5CE11DD0015900260ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0BD5CE21DD0015900260ED0 /* Build configuration list for PBXNativeTarget "ssingTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +554,7 @@
 				A0BD5CE41DD0015900260ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

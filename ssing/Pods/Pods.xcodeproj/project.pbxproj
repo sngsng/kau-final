@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07557A5A041C5636A4EA11F39D25F8A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0AD6E8314A40D7D80603ED1C30392EBF /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4679AFBE979F4608FE3050B5487962B4 /* KYDrawerController.swift */; };
+		0F941A007EB788E7B14877C6835E48F0 /* Pods-ssing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC27F981E06326E3B7FCECC65DFE1F5 /* Pods-ssing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58CD6D61EE6BE93AE0FB8D7F6BF45DF4 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E4E02FC6FE634BBFE3E72C89B45D3 /* KYDrawerController-dummy.m */; };
+		6E338A1FEB6FDB7A937ABA3A1389A742 /* Pods-ssingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DBB1E6ABC96B5C729318A2DAD1F24 /* Pods-ssingTests-dummy.m */; };
+		75A3DE11CB0B5E291301804D57F78999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7ED02CD711925EBF88835D9A16CAAA93 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5392F98C5F2DC079D2C9D80D640670 /* KYEmbedMainControllerSegue.swift */; };
+		89B74E8B8891F867316F062F7F0340CB /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAC3A867D43F85DC1723D02B9C5F8A /* KYEmbedDrawerControllerSegue.swift */; };
+		8BF92F5AF7E78E494D90B05475DD63C9 /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A4D96D1CBC1B564F6DE3101C55D775 /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92FCE2D3EE1278E5DC99560FC8216EE8 /* Pods-ssingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C3119479EE5C06AB1B4AE27562D9BC /* Pods-ssingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA445A07A6CFB4CB831E700D4FB186D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C99C70D8A34D5FADA81270C0FF586C87 /* Pods-ssing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 506AB5EF845D034D982CC1F488BFA432 /* Pods-ssing-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C1DBE145BEB1641FE09F96F9061D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F633B3903DE39E43C0B694E1C46B06;
+			remoteInfo = KYDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04553AF11F934AAF3040A2E5D0C4DD32 /* Pods-ssingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssingTests-frameworks.sh"; sourceTree = "<group>"; };
+		0785D3F6BAC74B8D19678F21828A9AA3 /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
+		0FE6316088CB37BFDA5F86B570035E70 /* Pods_ssing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ssing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1899A8E355BC0ABE8464A29FFFB89AF9 /* Pods-ssingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ssingTests.modulemap"; sourceTree = "<group>"; };
+		2466D2868D014A614DC1DCB81BD9EF58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812B50DE0E29B3914B630E2471677E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE9259A90CA5DA2B6833FAE1C233D43 /* Pods-ssing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39D2FF5D1598153BD58174349A747358 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433F07B495B2DE4B8A0B22D9F1A88266 /* Pods-ssing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ssing-acknowledgements.plist"; sourceTree = "<group>"; };
+		4679AFBE979F4608FE3050B5487962B4 /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		4AB3299195208201D530E80990CDDADC /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		506AB5EF845D034D982CC1F488BFA432 /* Pods-ssing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ssing-dummy.m"; sourceTree = "<group>"; };
+		6B8E4E02FC6FE634BBFE3E72C89B45D3 /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
+		6F5392F98C5F2DC079D2C9D80D640670 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		83CA7550C7C23A4FE846157BEA092658 /* Pods-ssingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssingTests.release.xcconfig"; sourceTree = "<group>"; };
+		910C79E45370F1DEF1922544900FC3CE /* Pods-ssingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970E9FF4F0EEC3DD0318D183DB0EDFDC /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		97EAC3A867D43F85DC1723D02B9C5F8A /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		A2425D7326D0B7A192113B9EF55F0D38 /* Pods_ssingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ssingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91921A4C2DB9B64EC7D3698EB7DEB1A /* Pods-ssing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssing.release.xcconfig"; sourceTree = "<group>"; };
+		BB6106DE0C59F1FE1B507DF6A0FDB24A /* Pods-ssing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssing-frameworks.sh"; sourceTree = "<group>"; };
+		BEC27F981E06326E3B7FCECC65DFE1F5 /* Pods-ssing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ssing-umbrella.h"; sourceTree = "<group>"; };
+		C67ABEC61439B919F93DCD19D2713143 /* Pods-ssing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssing-resources.sh"; sourceTree = "<group>"; };
+		CCA9D6098292F2B0D3278CBC2AE36F23 /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1C3119479EE5C06AB1B4AE27562D9BC /* Pods-ssingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ssingTests-umbrella.h"; sourceTree = "<group>"; };
+		D66DBB1E6ABC96B5C729318A2DAD1F24 /* Pods-ssingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ssingTests-dummy.m"; sourceTree = "<group>"; };
+		D8650B8F38136E3AE370F246885A5A8A /* Pods-ssingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssingTests-resources.sh"; sourceTree = "<group>"; };
+		E0A4D96D1CBC1B564F6DE3101C55D775 /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		F07881741ED69B19C0C78950E477FA09 /* Pods-ssing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssing.debug.xcconfig"; sourceTree = "<group>"; };
+		F1D5AA6926A11A5BC4B21F6B4E9F1469 /* Pods-ssing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ssing.modulemap"; sourceTree = "<group>"; };
+		F6E352C68355ABEFBC77BADA80E781B6 /* Pods-ssingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F71AC2A1D5248E82832DAD7877667CD7 /* Pods-ssingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ssingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4724F4F41785E38EE4DF1828A4036D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07557A5A041C5636A4EA11F39D25F8A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90682E08369135F9B060C22ABD429F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA445A07A6CFB4CB831E700D4FB186D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA2F0FED09959B2913F6E6385DD2BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A3DE11CB0B5E291301804D57F78999 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0814B5091C58F193B69C9A7433768FAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				694B118E3135D78463618946A1FCCB41 /* Pods-ssing */,
+				BA6982C223D64C1B482B9C6868610EBF /* Pods-ssingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2989BBDB141B4C31AB0115A3EE527898 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2466D2868D014A614DC1DCB81BD9EF58 /* Info.plist */,
+				0785D3F6BAC74B8D19678F21828A9AA3 /* KYDrawerController.modulemap */,
+				4AB3299195208201D530E80990CDDADC /* KYDrawerController.xcconfig */,
+				6B8E4E02FC6FE634BBFE3E72C89B45D3 /* KYDrawerController-dummy.m */,
+				970E9FF4F0EEC3DD0318D183DB0EDFDC /* KYDrawerController-prefix.pch */,
+				E0A4D96D1CBC1B564F6DE3101C55D775 /* KYDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYDrawerController";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48FC5F8335DCBB6C86C4AD058E26E2C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776BBCB988F5D4D73B30F2E35FB92CFB /* KYDrawerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		694B118E3135D78463618946A1FCCB41 /* Pods-ssing */ = {
+			isa = PBXGroup;
+			children = (
+				39D2FF5D1598153BD58174349A747358 /* Info.plist */,
+				F1D5AA6926A11A5BC4B21F6B4E9F1469 /* Pods-ssing.modulemap */,
+				2DE9259A90CA5DA2B6833FAE1C233D43 /* Pods-ssing-acknowledgements.markdown */,
+				433F07B495B2DE4B8A0B22D9F1A88266 /* Pods-ssing-acknowledgements.plist */,
+				506AB5EF845D034D982CC1F488BFA432 /* Pods-ssing-dummy.m */,
+				BB6106DE0C59F1FE1B507DF6A0FDB24A /* Pods-ssing-frameworks.sh */,
+				C67ABEC61439B919F93DCD19D2713143 /* Pods-ssing-resources.sh */,
+				BEC27F981E06326E3B7FCECC65DFE1F5 /* Pods-ssing-umbrella.h */,
+				F07881741ED69B19C0C78950E477FA09 /* Pods-ssing.debug.xcconfig */,
+				B91921A4C2DB9B64EC7D3698EB7DEB1A /* Pods-ssing.release.xcconfig */,
+			);
+			name = "Pods-ssing";
+			path = "Target Support Files/Pods-ssing";
+			sourceTree = "<group>";
+		};
+		776BBCB988F5D4D73B30F2E35FB92CFB /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				4679AFBE979F4608FE3050B5487962B4 /* KYDrawerController.swift */,
+				97EAC3A867D43F85DC1723D02B9C5F8A /* KYEmbedDrawerControllerSegue.swift */,
+				6F5392F98C5F2DC079D2C9D80D640670 /* KYEmbedMainControllerSegue.swift */,
+				2989BBDB141B4C31AB0115A3EE527898 /* Support Files */,
+			);
+			path = KYDrawerController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				48FC5F8335DCBB6C86C4AD058E26E2C5 /* Pods */,
+				E5B8470A9E06EB97942CC98AF15B4501 /* Products */,
+				0814B5091C58F193B69C9A7433768FAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6982C223D64C1B482B9C6868610EBF /* Pods-ssingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2812B50DE0E29B3914B630E2471677E8 /* Info.plist */,
+				1899A8E355BC0ABE8464A29FFFB89AF9 /* Pods-ssingTests.modulemap */,
+				910C79E45370F1DEF1922544900FC3CE /* Pods-ssingTests-acknowledgements.markdown */,
+				F71AC2A1D5248E82832DAD7877667CD7 /* Pods-ssingTests-acknowledgements.plist */,
+				D66DBB1E6ABC96B5C729318A2DAD1F24 /* Pods-ssingTests-dummy.m */,
+				04553AF11F934AAF3040A2E5D0C4DD32 /* Pods-ssingTests-frameworks.sh */,
+				D8650B8F38136E3AE370F246885A5A8A /* Pods-ssingTests-resources.sh */,
+				D1C3119479EE5C06AB1B4AE27562D9BC /* Pods-ssingTests-umbrella.h */,
+				F6E352C68355ABEFBC77BADA80E781B6 /* Pods-ssingTests.debug.xcconfig */,
+				83CA7550C7C23A4FE846157BEA092658 /* Pods-ssingTests.release.xcconfig */,
+			);
+			name = "Pods-ssingTests";
+			path = "Target Support Files/Pods-ssingTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5B8470A9E06EB97942CC98AF15B4501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA9D6098292F2B0D3278CBC2AE36F23 /* KYDrawerController.framework */,
+				0FE6316088CB37BFDA5F86B570035E70 /* Pods_ssing.framework */,
+				A2425D7326D0B7A192113B9EF55F0D38 /* Pods_ssingTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		706714F4B1485A62A3980B483E6857D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F941A007EB788E7B14877C6835E48F0 /* Pods-ssing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DC5EC719E0889C17677BB5D8A07BE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF92F5AF7E78E494D90B05475DD63C9 /* KYDrawerController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F267F02C53E53D540D2B228C892DEC5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FCE2D3EE1278E5DC99560FC8216EE8 /* Pods-ssingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43F633B3903DE39E43C0B694E1C46B06 /* KYDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BFA0DE0425E600548FB1E18F998273 /* Build configuration list for PBXNativeTarget "KYDrawerController" */;
+			buildPhases = (
+				B61C445AB34D651522D581E020E8CDDF /* Sources */,
+				EEA2F0FED09959B2913F6E6385DD2BE9 /* Frameworks */,
+				D4DC5EC719E0889C17677BB5D8A07BE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDrawerController;
+			productName = KYDrawerController;
+			productReference = CCA9D6098292F2B0D3278CBC2AE36F23 /* KYDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A194E81475071D836A24056CE17F74C /* Pods-ssingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCC9765D39B707A714203336C1201D /* Build configuration list for PBXNativeTarget "Pods-ssingTests" */;
+			buildPhases = (
+				C14A12C088F6D5256E0DDE525F90E3BC /* Sources */,
+				4724F4F41785E38EE4DF1828A4036D3C /* Frameworks */,
+				F267F02C53E53D540D2B228C892DEC5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ssingTests";
+			productName = "Pods-ssingTests";
+			productReference = A2425D7326D0B7A192113B9EF55F0D38 /* Pods_ssingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA635CBDB07956329D57A658D16A1406 /* Pods-ssing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019774F0A94109B0F82817CF0E5B3FC0 /* Build configuration list for PBXNativeTarget "Pods-ssing" */;
+			buildPhases = (
+				62701B8EFDD61324EEAC27AD57B6F1EA /* Sources */,
+				90682E08369135F9B060C22ABD429F21 /* Frameworks */,
+				706714F4B1485A62A3980B483E6857D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E893E744F654738A3A3403D0DF73FC41 /* PBXTargetDependency */,
+			);
+			name = "Pods-ssing";
+			productName = "Pods-ssing";
+			productReference = 0FE6316088CB37BFDA5F86B570035E70 /* Pods_ssing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E5B8470A9E06EB97942CC98AF15B4501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F633B3903DE39E43C0B694E1C46B06 /* KYDrawerController */,
+				AA635CBDB07956329D57A658D16A1406 /* Pods-ssing */,
+				9A194E81475071D836A24056CE17F74C /* Pods-ssingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62701B8EFDD61324EEAC27AD57B6F1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C70D8A34D5FADA81270C0FF586C87 /* Pods-ssing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61C445AB34D651522D581E020E8CDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CD6D61EE6BE93AE0FB8D7F6BF45DF4 /* KYDrawerController-dummy.m in Sources */,
+				0AD6E8314A40D7D80603ED1C30392EBF /* KYDrawerController.swift in Sources */,
+				89B74E8B8891F867316F062F7F0340CB /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				7ED02CD711925EBF88835D9A16CAAA93 /* KYEmbedMainControllerSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14A12C088F6D5256E0DDE525F90E3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E338A1FEB6FDB7A937ABA3A1389A742 /* Pods-ssingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E893E744F654738A3A3403D0DF73FC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYDrawerController;
+			target = 43F633B3903DE39E43C0B694E1C46B06 /* KYDrawerController */;
+			targetProxy = A1C1DBE145BEB1641FE09F96F9061D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1009AF151B3BDF2DC9409EBD5EAB178A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CA7550C7C23A4FE846157BEA092658 /* Pods-ssingTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ssingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ssingTests/Pods-ssingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ssingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6E17A3B2C38BC2EE561AA39DF5DCCCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91921A4C2DB9B64EC7D3698EB7DEB1A /* Pods-ssing.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ssing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ssing/Pods-ssing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ssing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E99DBF9B69461549F2C98FDEE2D0641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB3299195208201D530E80990CDDADC /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF53C8700532DBE7574CE7D75B01E320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB3299195208201D530E80990CDDADC /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1A685B3444DDE4408F6043723373865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07881741ED69B19C0C78950E477FA09 /* Pods-ssing.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ssing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ssing/Pods-ssing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ssing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E43C932953D033286245BF2640920F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E352C68355ABEFBC77BADA80E781B6 /* Pods-ssingTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ssingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ssingTests/Pods-ssingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ssingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019774F0A94109B0F82817CF0E5B3FC0 /* Build configuration list for PBXNativeTarget "Pods-ssing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A685B3444DDE4408F6043723373865 /* Debug */,
+				6E17A3B2C38BC2EE561AA39DF5DCCCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BFA0DE0425E600548FB1E18F998273 /* Build configuration list for PBXNativeTarget "KYDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E99DBF9B69461549F2C98FDEE2D0641 /* Debug */,
+				BF53C8700532DBE7574CE7D75B01E320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCC9765D39B707A714203336C1201D /* Build configuration list for PBXNativeTarget "Pods-ssingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43C932953D033286245BF2640920F70 /* Debug */,
+				1009AF151B3BDF2DC9409EBD5EAB178A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
